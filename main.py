@@ -2,24 +2,24 @@
 # DJANGO FRAMEWORK
 # ===========================================
 """
-Python has a great set of tools called Django for building web applications. Django is a web framework - a set of tools designed to build interactive websites.
-
-URL for Django = https://www.djangoproject.com/
+https://www.djangoproject.com/
 """
 # ===========================================
 # Setting Up a Project
 #  - Writing a Spec
 # ===========================================
-"""
-A full spec (specification) details the project goals, describes the project's functionality, and discusses its appearance and user interface.
-"""
+
 # ===========================================
 # Setting Up a Project 
 # - Creating a Virtual Environment
 # ===========================================
-"""
-To have access to and be able to work with Django we first have to set up a virtual environment. A virtual environment is place on your system where you can install packages and isolate them from all other python packages.
-"""
+mkdir project_name = "command used to create a folder for your python project"
+
+cd project_name = "command used to open and enter to into folder for your python project"
+
+code . = "command used to open vs code from terminal, such as powershell"
+
+pipenv shell = "command used to create,start or activate a virtual environment for a python project."
 
 
 
