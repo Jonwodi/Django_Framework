@@ -68,4 +68,4 @@ use_parentheses=True
 line_length=88
 
 # Creating a Project in Django
-To create a project in Django, enter the command (django-admin startproject project_name .). You can name your anything you want e.g. (django-admin startproject RealEstateProject .). Also always remember to add a space at the end of the project_name then a dot after the space.
+To create a project in Django, enter the command (django-admin startproject project_name .). You can name your project anything you want e.g. (django-admin startproject RealEstateProject .). Also always remember to add a space at the end of the project_name then a dot after the space.
