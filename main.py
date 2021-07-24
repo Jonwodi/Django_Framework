@@ -11,28 +11,31 @@ https://www.djangoproject.com/
 
 # ===========================================
 # Setting Up a Project 
-# - Creating a Virtual Environment
+# - Creating/Activating a Virtual Environment
 # ===========================================
-mkdir project_name = "command used to create a folder for your python project"
+"""
+mkdirproject_name = command used to create a folder for your python project
+"""
 
-cd project_name = "command used to open and enter to into folder for your python project"
+"""
+cd project_name = command used to open and enter to into folder for your python project
+"""
 
-code . = "command used to open vs code from terminal, such as powershell"
+"""code . = command used to open vs code from terminal, such as powershell"""
 
-pipenv shell = "command used to create,start or activate a virtual environment for a python project."
-
-
-
-
-
-# ===========================================
-
-
+"""
+pipenv shell = command used to create,start or activate a virtual environment for a python project."""
 
 # ===========================================
+# Installing Django
+# ===========================================
+"""
+pipenv install --dev = command used to install packages e.g. django, including dev packages e.g. flake8.
+"""
 
-
-
+"""
+pipenv graph = command used to view all installed packages (dependicies).
+"""
 # ===========================================
 
 

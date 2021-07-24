@@ -7,7 +7,7 @@ URL for Django documentation = https://www.djangoproject.com/
 # Setting Up a Project - Writing a Spec
 A full spec (specification) details the project goals, describes the project's functionality, and discusses its appearance and user interface.
 
-# Setting Up a Project - Creating a Virtual Environment
+# Setting Up a Project - Creating/Activating a Virtual Environment
 To have access to and be able to work with Django we first have to set up a virtual environment. A virtual environment is place on your system where you can install packages and isolate them from all other python packages.
 
 Step 1: Create a new directory (folder) using the command (mkdir project_name) using a terminal e.g. windows powershell for window users. 
@@ -15,3 +15,28 @@ Step 1: Create a new directory (folder) using the command (mkdir project_name) u
 Step 2: Then use the command (cd) to enter that directory that you created. Then open that directory in a text editor (visual studio code) using the command (code .).
 
 Step 3: Once the project folder is open in visual studio code, start a terminal and enter the command (pipenv shell), to create and activate a virtual environment for your project.
+
+Note: to deactivate virtual environment simply close the terminal.
+
+# Installing Django
+After entering the command (pipenv shell) in your vs code terminal, a Pipfile should have been created for your project.
+
+Copy and paste, the django package under packages and do the same for the development (dev) packages if your project needs them. Your Pipfile should look similar as shown below:
+
+[dev-packages]
+
+isort = "==5.2.1"
+
+flake8 = "==3.8.3"
+
+black = "==19.10b0"
+
+[packages]
+
+django = "==3.0.8"
+
+If you want to use a different version of the django package and/or the dev packages, just change them to the version you want to use for your project whilst inside the Pipfile. 
+
+Once you happy with the versions and packages you want to use enter the command (pipenv install --dev), this will install all packages including the dev packages. To only install packages without installing dev packages use the command (pipenv install).
+
+Next use the command (pipenv graph) to view all the installed packages (dependicies).
