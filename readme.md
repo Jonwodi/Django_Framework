@@ -40,3 +40,32 @@ If you want to use a different version of the django package and/or the dev pack
 Once you happy with the versions and packages you want to use enter the command (pipenv install --dev), this will install all packages including the dev packages. To only install packages without installing dev packages use the command (pipenv install).
 
 Next use the command (pipenv graph) to view all the installed packages (dependicies).
+
+# create setup file 
+
+create file called (setup.cfg) under your project folder and copy and paste, every thing below into the setup.cfg file. You only need to this once for each project you create.
+
+[flake8]
+
+ignore = E203, E266, E501, W503
+
+max-line-length = 88
+
+max-complexity = 18
+
+select = B,C,E,F,W,T4
+
+[isort]
+
+multi_line_output=3
+
+include_trailing_comma=True
+
+force_grid_wrap=0
+
+use_parentheses=True
+
+line_length=88
+
+# Creating a Project in Django
+To create a project in Django, enter the command (django-admin startproject project_name .). You can name your anything you want e.g. (django-admin startproject RealEstateProject .). Also always remember to add a space at the end of the project_name then a dot after the space.
