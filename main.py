@@ -63,9 +63,19 @@ python manage.py startapp app_name = conmmand used to create a app or new app wi
 """
 
 # ===========================================
-
+# Viewing the Project
 # ===========================================
+"""
+python manage.py runserver = command used to start a Django development server.
+"""
 
+"""
+python manage.py runserver 8001 = command used if 8000 port is already in use, in order to find an open port.
+"""
+
+"""
+http://127.0.0.1:8000/ = Django development server URL.
+"""
 
 # ===========================================
 

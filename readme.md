@@ -74,6 +74,8 @@ To create a project in Django, enter the command (django-admin startproject proj
 A Django project is made up made up of individual apps that make the project work as a whole. While in active virtual environment use the command (python manage.py startapp app_name) to start a app within your project.
 
 # Viewing the Project
-To make sure that Django has set up the project properly start a development server by using the command (python manage.py runserver). Then copy and paste the URL that that Django development provide into a web browser. If you see a page saying that, (the install worked successfully! Congratulations!), it means that Django is working correctly for your project. 
+To make sure that Django has set up the project properly start a development server by using the command (python manage.py runserver). Then copy and paste the URL (http://127.0.0.1:8000/) that the Django development provides into a web browser. If you see a page saying that, (the install worked successfully! Congratulations!), it means that Django is working correctly for your project. 
 
 However, if you get any error message saying that port is already in use then, tell Django to use a different port, by using the command (python manage.py runserver 8001), continue to cycle through higher numbers until you find an open port.
+
+To stop the Django developmet server use ctrl + c on your keyboard.
