@@ -69,3 +69,6 @@ line_length=88
 
 # Creating a Project in Django
 To create a project in Django, enter the command (django-admin startproject project_name .). You can name your project anything you want e.g. (django-admin startproject RealEstateProject .). Also always remember to add a space at the end of the project_name then a dot after the space.
+
+# Start an App within a project 
+A Django project is made up made up of individual apps that make the project work as a whole. While in active virtual environment use the command (python manage.py startapp app_name) to start a app within your project.
